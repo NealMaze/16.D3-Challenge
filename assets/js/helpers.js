@@ -60,7 +60,7 @@ ret
 return ret;
 }
 
-function setCircles(ret, nueX, selX, nueY, selY) {
+function setCirc(ret, nueX, selX, nueY, selY) {
 ret.transition()
     .duration(1500)
     .attr("cx", d => nueX(d[selX]))
